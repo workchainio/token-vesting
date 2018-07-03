@@ -1,0 +1,40 @@
+{
+  "name": "token-vesting",
+  "version": "1.0.0",
+  "description": "WATT Token vesting contracts for the workchain.io platform",
+  "main": "truffle-config.js",
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/workchainio/token-vesting.git"
+  },
+  "keywords": [
+    "blockchain",
+    "ethereum",
+    "erc20",
+    "work",
+    "token",
+    "watt token"
+  ],
+  "author": "Vladimir",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/workchainio/token-vesting/issues"
+  },
+  "homepage": "https://workchain.io",
+  "scripts": {
+    "compile": "truffle compile",
+    "version": "truffle version"
+  },
+  "dependencies": {
+    "openzeppelin-solidity": "^1.10.0",
+    "work-token": "git+https://github.com/workchainio/work-token.git"
+  },
+  "devDependencies": {
+    "truffle": "^4.1.11",
+    "babel-polyfill": "^6.26.0",
+    "babel-register": "^6.26.0"
+  }
+}
