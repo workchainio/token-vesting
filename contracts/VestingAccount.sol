@@ -3,7 +3,7 @@ pragma solidity ^0.4.23;
 import "openzeppelin-solidity/contracts/token/ERC20/TokenVesting.sol";
 import "./VestingSchedule.sol";
 //The token contract is not a dependency but is used in tests so importing it here for compilation
-import "work-token/contracts/WorkToken.sol";
+import "watt-token/contracts/WATTToken.sol";
 
 contract VestingAccount is TokenVesting
 {

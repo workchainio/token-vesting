@@ -25,12 +25,14 @@
   },
   "homepage": "https://workchain.io",
   "scripts": {
-    "compile": "truffle compile",
+    "start": "truffle compile",
+    "test": "truffle test",
+    "migrate": "truffle migrate",
     "version": "truffle version"
   },
   "dependencies": {
     "openzeppelin-solidity": "^1.10.0",
-    "work-token": "git+https://github.com/workchainio/work-token.git"
+    "watt-token": "git+https://github.com/workchainio/watt-token.git"
   },
   "devDependencies": {
     "truffle": "^4.1.11",
